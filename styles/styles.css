@@ -1,0 +1,185 @@
+/* Overriding default styles */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #333;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* Helper styles */
+
+.card {
+    color: black;
+    border-radius: 10px;
+    background: white;
+    padding: 10px 30px 20px;
+    margin-bottom: 20px;
+}
+
+.container {
+    max-width: 960px;
+    margin: auto;
+    overflow: hidden;
+    padding: 4rem 1rem;
+}
+
+.grid-3 {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-2 {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.center {
+    text-align: center;
+    margin: auto;
+}
+
+.bg-light {
+    background: #f4f4f4;
+    color: #333;
+}
+
+.bg-dark {
+    background: #333;
+    color: #f4f4f4;
+}
+
+
+/* Horizontal Rule */
+
+hr {
+    width: 70%;
+    text-align-last: center;
+    border: 1.5px solid #c0c0c0;
+}
+
+
+/* Header */
+
+.showcase::after {
+    content: "";
+    height: 450px;
+    width: 100%;
+    background-image: url("../assets/covid-banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    transition: all 1000ms;
+    position: relative;
+}
+
+
+/* Header content */
+
+.content {
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    margin-top: 70px;
+    margin-left: -145px;
+    width: 300px;
+    height: 350px;
+    text-align: center;
+    transition: all 1000ms;
+}
+
+.content .logo {
+    height: 140px;
+    width: 140px;
+}
+
+.content .title {
+    font-size: 5rem;
+    margin-top: 1rem;
+    font-weight: bold;
+    margin: 0px;
+}
+
+
+/* Tabs */
+
+.tab {
+    max-width: 960px;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+}
+
+
+/* Style the buttons that are used to open the tab content */
+
+.tab button {
+    background-color: #d5d4d4;
+    padding: 15px;
+    width: 180px;
+    border: none;
+    border-radius: 1vh;
+    cursor: pointer;
+    margin-right: 30px;
+    transition: 0.3s;
+}
+
+
+/* Change background color of buttons on hover */
+
+.tab button:hover {
+    opacity: 1;
+}
+
+
+/* Create an active/current tablink class */
+
+.tab button.active {
+    opacity: 1;
+}
+
+.hide {
+    display: none;
+}
+
+
+/* Play Button */
+
+#tab-play .btn {
+    background-color: #343434;
+    color: #f4f4f4;
+    padding: 8px;
+    width: 90px;
+    border: none;
+    border-radius: 1vh;
+    cursor: pointer;
+    margin-right: 30px;
+    transition: 0.3s;
+}
+
+
+/* Contact icons */
+
+#contact i {
+    font-size: 30px;
+    margin: 15px;
+    color: #333;
+}
+
+
+/* Website Footer */
+
+footer {
+    padding: 2.2rem;
+}
+
+footer p {
+    margin: 0;
+}

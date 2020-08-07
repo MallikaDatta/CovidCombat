@@ -1,0 +1,161 @@
+/* Overriding default styles */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #f4f4f4;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    max-width: 960px;
+    margin: auto;
+    overflow: hidden;
+    padding: 4rem 1rem;
+}
+
+.center {
+    text-align: center;
+    margin: auto;
+}
+
+.bg-light {
+    background: #f4f4f4;
+    color: #333;
+}
+
+.bg-dark {
+    background: #333;
+    color: #f4f4f4;
+}
+
+
+/* Horizontal Rule */
+
+hr {
+    width: 70%;
+    text-align-last: center;
+    border: 1.5px solid #c0c0c0;
+}
+
+
+/* Header */
+
+.showcase {
+    content: "";
+    height: 150px;
+    width: 100%;
+    background-color: aqua;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    transition: all 1000ms;
+    position: relative;
+}
+
+
+/* Header content */
+
+.content {
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    margin-top: 70px;
+    margin-left: -145px;
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    transition: all 1000ms;
+}
+
+.content .logo {
+    height: 320px;
+    width: 320px;
+}
+
+.content .title {
+    font-size: 5rem;
+    margin-top: 1rem;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.hide {
+    display: none;
+}
+
+.option-img {
+    height: 50px;
+    width: 50px;
+}
+
+
+/* Website Footer */
+
+footer {
+    padding: 2.2rem;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
+
+.hide {
+    display: none;
+}
+
+.question button {
+    background-color: #4caf50;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+    opacity: 0.8;
+}
+
+
+/* Hover effects */
+
+.question button:hover {
+    opacity: 1;
+}
+
+canvas {
+    border-bottom: 28px solid #8B4513;
+}
+
+
+/* Play Button */
+
+.btn {
+    background-color: #343434;
+    color: #f4f4f4;
+    padding: 8px;
+    margin: 20px;
+    width: 90px;
+    border: none;
+    border-radius: 1vh;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#move-on {
+    background-color: #c0c0c0;
+    color: #343434;
+    padding: 8px;
+    margin: 20px;
+    width: 90px;
+    border: none;
+    border-radius: 1vh;
+    cursor: pointer;
+    transition: 0.3s;
+}
