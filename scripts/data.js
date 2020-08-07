@@ -40,7 +40,7 @@ var questions = [{
     },
     {
         "question": "What is the best sneezing practice to prevent the virus?",
-        "answers": ["Sneeze in elbow bend or tissue and discard tissue", "Use handkerchief and keep handerchief safely", "Control sneeze and supress it", "Never forget to say- excuse me"],
+        "answers": ["Sneeze in elbow bend or tissue and discard tissue", "Use handkerchief and keep handkerchief safely", "Control sneeze and suppress it", "Never forget to say "Excuse me.""],
         "correct": 0
     },
     {
